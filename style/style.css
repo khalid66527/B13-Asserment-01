@@ -22,7 +22,7 @@
 }
 .nav-btn li a{
     text-decoration: none;
-    color: #0a0808;
+    color: #020101;
     font-size: 20px;
 }
  .btn-btn{
@@ -95,6 +95,9 @@
   border: none;
   margin-right: 10px;
 }
+.btn-btn:hover{
+  background-color: #24be64;
+}
 
 .btn-primary{
   background-color: #2b6e47;
@@ -104,8 +107,12 @@
 .btn-secondary{
   background-color: transparent;
   color: white;
-  border: 2px solid white;
-  padding: 10px 20px;
+  border: 1px solid white;
+  padding: 12px 20px;
+}
+.btn-secondary:hover{
+  background-color: #00ff4863;
+  color: #ffffff;
 }
 
 
@@ -217,7 +224,7 @@
 }
 .note {
     margin-top: 20px;
-    font-size: 13px;
+    font-size: 18px;
     color: #777;
 }
 .footer{
@@ -245,17 +252,22 @@
 }
 .footer-socile-icons .footer-icons a{
   color: white;
-  font-size: 18px;
+  font-size: 16px;
   margin-right: 20px;
 }
 .footer-bottom{
   color: white;
   text-align: center;
-  margin-top: 80px;
-  font-size: 22px;
+  margin-top: 50px;
+  font-size: 20px;
+  
 }
 
-
+.hr{
+  width: 80%;
+  margin: 50px auto 0; 
+  opacity: 0.3;
+}
 
 
 
