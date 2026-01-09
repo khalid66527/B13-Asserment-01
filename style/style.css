@@ -1,0 +1,38 @@
+.open-sans-inter{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  
+  font-style: normal;
+  font-variation-settings:"wdth" 100;
+}
+*{
+    margin: 0px;
+    padding: 0Px;
+}
+.nav-bar{
+    display: flex;
+    margin: 24px 0px;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.nav-btn li{
+    display: inline;
+    margin-right: 40px;
+}
+.nav-btn li a{
+    text-decoration: none;
+    color: #474747;
+    font-size: 20px;
+}
+ .btn-btn{
+
+    font-size: 20px;
+    color: white;
+    background-color: #469165 ;
+    border-radius: 8px;
+    border: none;
+    font-weight: bold;
+    padding:18px 30px ;
+ }
+
