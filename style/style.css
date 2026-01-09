@@ -22,7 +22,7 @@
 }
 .nav-btn li a{
     text-decoration: none;
-    color: #474747;
+    color: #0a0808;
     font-size: 20px;
 }
  .btn-btn{
@@ -63,6 +63,12 @@
   width: fit-content;
   margin: 0 auto 20px; 
   border-radius: 50px;
+}
+.banner-text{
+  color: white;
+  font-size: 20px;
+  margin-bottom: 30px;
+  line-height: 28px;
 }
 
 .banner .socile-title{
@@ -118,11 +124,11 @@
     text-align: center;
 }
 .about-container h2{
-    font-size: 48px;
+    font-size: 52px;
     margin-bottom: 30px;
 }
 .about-container p{
-    font-size: 20px;
+    font-size: 18px;
     color: #757575;
     line-height: 30px;
     margin-bottom: 44px;
@@ -144,7 +150,6 @@
 .card-box{
     display: flex;
     gap: 24px;
-    
 }
 .card{
     max-width: 274px;
@@ -187,9 +192,7 @@
 
 /*  Section last */
 .last {
-    /* display: flex; */
-    /* justify-content: center; */
-  /* max-width: 0px; */
+  margin-bottom: 120px;
 }
 .last-box {
     width: 70%;
@@ -217,3 +220,45 @@
     font-size: 13px;
     color: #777;
 }
+.footer{
+  background-color:#031B31;
+  padding-top: 100px;
+  padding-bottom: 60px;
+}
+.footer-container{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 120px ;
+
+}
+.footer-container .footer-img{
+  /* margin-bottom: 12px; */
+}
+.footer-socile-icons{
+  color: white;
+  font-size: 20px;
+  margin-right: 120px;
+}
+.footer-socile-icons .footer-text{
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.footer-socile-icons .footer-icons a{
+  color: white;
+  font-size: 18px;
+  margin-right: 20px;
+}
+.footer-bottom{
+  color: white;
+  text-align: center;
+  margin-top: 80px;
+  font-size: 22px;
+}
+
+
+
+
+
+
+
+
